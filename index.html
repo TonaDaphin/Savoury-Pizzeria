@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Savoury Pizzeria</title>
+  <link rel="icon" type="image/png" href="images/logos/logo.png">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+  <script src="js/scripts.js"></script>
+</head>
+<body>
+  <header>
+    <div class="navi">
+      <div class="logo">
+        <img src="../Savoury-Pizzeria/images/logos/red.png" width="5%" height="6%" alt="SP logo">
+          Savoury<br>
+          <small>P I Z Z E R I A</small>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#order">Order</a></li>
+          <li><a href="#contacts">Contacts</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <div class="home"><a name="home"></a>
+    <div class="welcomehome">
+      <p id="welcome">Welcome</p>
+      <p id="fav">WE COOKED YOUR FAVOURITE PIZZA RECIPE</p>
+      <!-- <a href=""></a> -->
+    </div>
+  </div>
+  <div class="menu"><a name="menu"></a>
+    <div class="allpizza">
+      <h3><i>MENU</i></h3>
+      <div class="row">
+        <div class="col-md-3">
+          <img id="pep" src="../Savoury-Pizzeria/images/pizza/pepperoni.png" alt="Pepperoni">
+          <p>Pepperoni pizza <br> 3500 Rwf</p>
+        </div>
+        <div class="col-md-3">
+            <img id="chee" src="../Savoury-Pizzeria/images/pizza/cheese.png" alt="cheese">
+            <p>Cheese pizza <br> 3500 Rwf</p>
+        </div>
+        <div class="col-md-3">
+            <img src="../Savoury-Pizzeria/images/pizza/mushroom.png" alt="mushroom">
+            <p>Mushroom pizza <br> 3500 Rwf</p>
+        </div>
+        <div class="col-md-3">
+            <img src="../Savoury-Pizzeria/images/pizza/chicken.png" alt="chicken">
+            <p>Chicken pizza <br> 3500 Rwf</p>
+        </div>
+      </div>
+      <div class="row">
+          <div class="col-md-3">
+            <img src="../Savoury-Pizzeria/images/pizza/bacon.png" alt="bacon">
+            <p>Bacon pizza <br> 3500 Rwf</p>
+          </div>
+          <div class="col-md-3">
+              <img src="../Savoury-Pizzeria/images/pizza/sausage.png" alt="sausage">
+              <p>Sausage pizza <br> 3500 Rwf</p>
+          </div>
+          <div class="col-md-3">
+              <img src="../Savoury-Pizzeria/images/pizza/greenpepper.png" alt="greenpepper">
+              <p>Green pepper pizza <br> 3500 Rwf</p>
+          </div>
+          <div class="col-md-3">
+              <img src="../Savoury-Pizzeria/images/pizza/fourseason.png" alt="fourseason">
+              <p>Four season <br> 4500 Rwf</p>
+          </div>
+        </div>
+    </div>
+  </div>
+  <div class="order"><a name="order"></a>
+    <span><p>At SAVOURY PIZZERIA, you get to make your own pizza wherever you are and have it delivered<br>
+    Go on to order your desired pizza!</p></span>
+    <div class="operation">
+     <div class="row">
+      <div class="col-md-6">
+        <h4>Size</h4>
+        <select class="form-control" id="size" name="sizable">
+            <option>Sizes</option>
+            <option value="500" name="Small">Small</option>
+            <option value ="700" name="Medium">Medium</option>
+            <option value="1000">Large</option>
+        </select>
+      </div>
+      <div class="col-md-6"><h4>Crust</h4>
+        <select class="form-control" id="crust">
+            <option >Crusts</option>
+            <option value="1000">Crispy</option>
+            <option value="1000">Stuffed</option>
+            <option value="1000">Gluten-free</option>
+        </select>
+      </div>
+     </div><br><br>
+      <h4>Toppings</h4>
+      <div class="custom-control custom-checkbox custom-control-inline">
+        <input type="checkbox" class="custom-control-input" id="defaultInline1" value="2000">
+        <label class="custom-control-label" for="defaultInline1">Pepperoni</label>
+      </div>
+      <div class="custom-control custom-checkbox custom-control-inline">
+        <input type="checkbox" class="custom-control-input" id="defaultInline2" value="2000">
+        <label class="custom-control-label" for="defaultInline2">Cheese</label>
+      </div>
+      <div class="custom-control custom-checkbox custom-control-inline">
+        <input type="checkbox" class="custom-control-input" id="defaultInline3" value="2000">
+        <label class="custom-control-label" for="defaultInline3">Bacon</label>
+      </div>
+      <div class="custom-control custom-checkbox custom-control-inline">
+        <input type="checkbox" class="custom-control-input" id="defaultInline4" value="2000">
+        <label class="custom-control-label" for="defaultInline4">Chicken</label>
+      </div>
+      <div class="custom-control custom-checkbox custom-control-inline">
+        <input type="checkbox" class="custom-control-input" id="defaultInline5" value="2000">
+        <label class="custom-control-label" for="defaultInline5">Sausage</label>
+      </div>
+      <div class="custom-control custom-checkbox custom-control-inline">
+        <input type="checkbox" class="custom-control-input" id="defaultInline6" value="2000">
+        <label class="custom-control-label" for="defaultInline6">Green pepper</label>
+      </div>
+      <div class="custom-control custom-checkbox custom-control-inline">
+        <input type="checkbox" class="custom-control-input" id="defaultInline7" value="2000">
+        <label class="custom-control-label" for="defaultInline7">Mushroom</label>
+      </div>
+      <div class="custom-control custom-checkbox custom-control-inline">
+         <input type="checkbox" class="custom-control-input" id="defaultInline8" value="2500">
+        <label class="custom-control-label" for="defaultInline8">Four season</label>
+      </div><br><br>
+      <div class="response">
+        <p>How many pizzas do you want?<input type="number"id="many"></p>
+        <button type="button" class="btn btn-primary" id="submit">Submit</button>
+        <p id="response"></p>
+        <button type="button" class="btn btn-info" id="deliver" >Deliver</button>
+        <button type="button" class="btn btn-info" id="see" >Checkout</button>
+        <div class="check">
+          <p id="siz"></p>
+          <p id="crus"></p>
+          <p id="toppin"></p>
+          <p id="total"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer><a name="contacts"></a>
+      <img src="../Savoury-Pizzeria/images/social/dribble.png">
+      <img src="../Savoury-Pizzeria/images/social/facebook.png">
+      <img src="../Savoury-Pizzeria/images/social/g_plus.png">
+      <img src="../Savoury-Pizzeria/images/social/skype.png">
+      <img src="../Savoury-Pizzeria/images/social/stumble_upon.png">
+      <img src="../Savoury-Pizzeria/images/social/behance.png">
+      <img src="../Savoury-Pizzeria/images/social/pinterest.png">
+      <img src="../Savoury-Pizzeria/images/social/flickr.png">
+      <p><img id ="red" src="../Savoury-Pizzeria/images/logos/red.png" width="2%" height="3%">SAVOURY PIZZERIA<br>2019</p>
+    </footer>
+  </div>
+</body>
+</html>

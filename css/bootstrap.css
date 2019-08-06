@@ -1,0 +1,102 @@
+header{
+  /* margin:20px; */
+  align-items: center;
+  color: white;
+  background-image: url("../images/backgrounds/green.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.navi{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10px;
+  margin-right: 10px;
+  align-items: center;
+  padding:2%;
+}
+.logo{
+  text-align: left;
+  width:50%;
+  height: 40%;
+}
+nav{
+  text-align: right;
+}
+li{
+  text-transform: uppercase;
+  display: inline;
+  padding: 30px;
+}
+li a{
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+ul>li>a:hover{
+  text-decoration: none;
+  border-radius:15px 55px 30px;
+  background-color: rgb(25, 175, 185);
+  border-style: solid 0.5px;
+  color:white;
+}
+.home{
+  padding: 25%;
+  background-image: url("../images/backgrounds/home.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.welcomehome{
+  text-align: center;
+  margin-top: -160px;
+  color:darkgreen;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 50px;
+  font-weight: bold;
+}
+#welcome{
+  font-style: oblique;
+  color:white;
+}
+#fav{
+  background-color: rgb(210, 229, 240, 0.5);
+  border-radius:30px;
+}
+.menu{
+  padding: 12%;
+  background-image: url("../images/backgrounds/gradient.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.allpizza{
+  text-align: center;
+  background-color: rgb(210, 229, 240, 0.2);
+  color:white;
+  padding:50px;
+}
+#pep{
+  height: 200px;
+}
+#chee{
+  height:200px;
+}
+.order{
+  padding: 10%;
+  background-image: url("../images/backgrounds/order.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color:white;
+}
+span{
+  text-align: center;
+}
+.operation{
+  background-color: rgb(210, 229, 240, 0.1);
+  border-radius:10px;
+  padding: 5%;
+}
+footer{
+  text-align: center;
+}
+footer img{
+  margin: 10px;
+}
