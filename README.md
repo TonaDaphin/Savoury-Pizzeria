@@ -19,4 +19,4 @@ Any issues or have questions, ideas or concerns?
 * tonadaphine77@gmail.com
 * +250780624491
 ### License
-Tona Daphin
+Tona Daphin.
