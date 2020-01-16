@@ -8,15 +8,21 @@ header{
 }
 .navi{
   display: flex;
-  justify-content: space-between;
+  justify-content:space-around;
   margin-left: 10px;
   margin-right: 10px;
   align-items: center;
   padding:2%;
 }
+@media screen and (max-width: 600px) {
+  .navi a {
+     display: list-item;
+     width: 100%;
+  }
+} 
 .logo{
   text-align: left;
-  width:50%;
+  width:20%;
   height: 40%;
 }
 nav{
@@ -25,12 +31,16 @@ nav{
 li{
   text-transform: uppercase;
   display: inline;
-  padding: 30px;
+  /* padding: 30px; */
 }
 li a{
   text-decoration: none;
   color: white;
-  padding: 10px;
+  /* scroll-behavior: smooth; */
+  /* padding: 10px; */
+}
+ul>li>a{
+  scroll-behavior: smooth;
 }
 ul>li>a:hover{
   text-decoration: none;
@@ -74,7 +84,7 @@ ul>li>a:hover{
   padding:50px;
 }
 #pep{
-  height: 200px;
+  height: 168px;
 }
 #chee{
   height:200px;
